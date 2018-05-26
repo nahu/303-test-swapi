@@ -26,3 +26,25 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.center {
+    text-align: center
+}
+      
+.yellow {
+    color: #ffe300
+}
+
+.pad_top {
+    padding-top: 34px
+}
+
+.pad_bot {
+    padding-bottom: 34px
+}
+.main {
+    text-align: left;
+}
+.name {
+    font-size: 1.9em;
+}

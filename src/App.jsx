@@ -1,20 +1,23 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import './App.css'
+import Characters from './components/Characters'
 
 const App = props => (
     <div className="App">
-        <header className="App-header">
+        
+        <div className="container-fluid">
             <div className="row center yellow">
-                <div className="jumbotron">
-                    <h1>SWAPI</h1>
-                    <p className="lead">The Star Wars API</p>
+                <div className="row center yellow">
+                    <div className="jumbotron">
+                        <h1>SWAPI <small>The Star Wars API</small></h1>
+                            
+                    </div>
                 </div>
             </div>
-        </header>
-        <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        </div>
+
+
+        <Characters/>
     </div>
 )
 
