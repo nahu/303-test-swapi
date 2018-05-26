@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "workbench.editor.enablePreview": false,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": false,
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": [
+    "js"
+  ],
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  "editor.formatOnSave": true,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": false,
+  // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+  "prettier.eslintIntegration": true,
+  "editor.tabSize": 4
+}
